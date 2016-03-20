@@ -8,19 +8,107 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="Login" id="BYZ-38-t0r" customClass="ViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="363" y="288"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="n2o-cX-dc9">
+            <objects>
+                <viewController storyboardIdentifier="Login" id="gIF-WJ-VI3" customClass="LoginViewController" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="97c-TV-vEI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="765" y="288"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="rEo-f9-sWd">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="HJn-eg-iVL" customClass="HomeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ikv-Ts-Fr3"/>
+                        <viewControllerLayoutGuide type="bottom" id="C0h-0x-ySn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Ef-1h-cCg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jqX-CK-Juq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144" y="288"/>
+        </scene>
+        <!--Image Select View Controller-->
+        <scene sceneID="nla-Mp-lIz">
+            <objects>
+                <viewController storyboardIdentifier="ImageSelect" id="yMr-YT-6oy" customClass="ImageSelectViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MIP-5v-ik6"/>
+                        <viewControllerLayoutGuide type="bottom" id="tnu-L6-gXr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tKj-cG-kv7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D0a-Z5-lUO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1516" y="288"/>
+        </scene>
+        <!--Post View Controller-->
+        <scene sceneID="wfS-gO-YMf">
+            <objects>
+                <viewController storyboardIdentifier="Post" id="JUc-L4-ASd" customClass="PostViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t1O-QE-Ebe"/>
+                        <viewControllerLayoutGuide type="bottom" id="vJN-Hs-Tm5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TLI-pm-akj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pm9-1j-ifN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1884" y="288"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="iVZ-SJ-Csb">
+            <objects>
+                <viewController storyboardIdentifier="Setting" id="BSQ-xy-fw8" customClass="SettingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p3F-eW-4c4"/>
+                        <viewControllerLayoutGuide type="bottom" id="szY-Bc-s9y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ele-lK-IWu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J1H-sW-Qy4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2227" y="288"/>
         </scene>
     </scenes>
 </document>
