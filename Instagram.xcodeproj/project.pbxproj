@@ -15,6 +15,8 @@
 		EA7C74731C9E71D9000C5821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7C74711C9E71D9000C5821 /* LaunchScreen.storyboard */; };
 		EA7C747E1C9E71D9000C5821 /* InstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C747D1C9E71D9000C5821 /* InstagramTests.swift */; };
 		EA7C74891C9E71D9000C5821 /* InstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C74881C9E71D9000C5821 /* InstagramUITests.swift */; };
+		EA7C74971CA65C75000C5821 /* Instagram in Resources */ = {isa = PBXBuildFile; fileRef = EA7C74961CA65C75000C5821 /* Instagram */; };
+		EA7C74991CA65CC6000C5821 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7C74981CA65CC6000C5821 /* Const.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EA7C74841C9E71D9000C5821 /* InstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7C74881C9E71D9000C5821 /* InstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramUITests.swift; sourceTree = "<group>"; };
 		EA7C748A1C9E71D9000C5821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7C74961CA65C75000C5821 /* Instagram */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Instagram; sourceTree = "<group>"; };
+		EA7C74981CA65CC6000C5821 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Const.swift; path = ../Const.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,9 +125,11 @@
 		EA7C74671C9E71D9000C5821 /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				EA7C74981CA65CC6000C5821 /* Const.swift */,
 				EA7C74681C9E71D9000C5821 /* AppDelegate.swift */,
 				EA7C746A1C9E71D9000C5821 /* ViewController.swift */,
 				EA7C746C1C9E71D9000C5821 /* Main.storyboard */,
+				EA7C74961CA65C75000C5821 /* Instagram */,
 				EA7C746F1C9E71D9000C5821 /* Assets.xcassets */,
 				EA7C74711C9E71D9000C5821 /* LaunchScreen.storyboard */,
 				EA7C74741C9E71D9000C5821 /* Info.plist */,
@@ -262,6 +268,7 @@
 				EA7C74731C9E71D9000C5821 /* LaunchScreen.storyboard in Resources */,
 				EA7C74701C9E71D9000C5821 /* Assets.xcassets in Resources */,
 				EA7C746E1C9E71D9000C5821 /* Main.storyboard in Resources */,
+				EA7C74971CA65C75000C5821 /* Instagram in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +343,7 @@
 			files = (
 				EA7C746B1C9E71D9000C5821 /* ViewController.swift in Sources */,
 				EA7C74691C9E71D9000C5821 /* AppDelegate.swift in Sources */,
+				EA7C74991CA65CC6000C5821 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

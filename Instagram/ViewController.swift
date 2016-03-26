@@ -52,6 +52,14 @@ class ViewController: UIViewController {
             self.presentViewController(imageViewController!, animated: true, completion: nil)
             }, atIndex: 1)
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+    }
 
 
 }
