@@ -53,13 +53,6 @@ class ViewController: UIViewController {
             }, atIndex: 1)
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
-    override func viewWillAppear(animated: Bool) {
-        super.viewWillAppear(animated)
-    }
 
 
 }
